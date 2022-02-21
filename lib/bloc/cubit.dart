@@ -32,7 +32,8 @@ class WeatherCubit extends Cubit<WeatherStates> {
         weatherData = WeatherData.fromJson(
             value); // here you fill the object and can use it now
 
-        // weatherdata.add(weatherData!); // use this to add to the list === example: line 36
+        weatherdata.add(
+            weatherData!); // use this to add to the list === example: line 36
       });
       // print(weatherData!); // to retrive only one object
       // print(weatherdata[0].title); // anthor solution if you want to retrive a list

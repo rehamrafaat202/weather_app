@@ -23,9 +23,10 @@ class SecondScreen extends StatelessWidget {
                 ),
               ),
               Text(
-                cubit.weatherData!.title!,
+                // cubit.weatherData!.title!,
                 // anthor solution
-                // cubit.weatherdata[0].title!, // to see this work too remove comment of line 34 in cubit don't forget!!!
+                cubit.weatherdata[0]
+                    .title!, // to see this work too remove comment of line 34 in cubit don't forget!!!
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
